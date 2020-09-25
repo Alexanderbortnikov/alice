@@ -1,26 +1,30 @@
 <!doctype html>
 <html>
-	<!-- You have to put this piece of JavaScript code into your web page
+<!-- You have to put this piece of JavaScript code into your web page
 Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
 -->
 <link type="text/css" rel="stylesheet" href="https://alexbc1.bugfocus.com/clientweb/chat-client-v4/css/form.css">
 <script type="text/javascript">
     SERVICE_PATTERN_CHAT_CONFIG = {
-        appId: 'c3c76049ee1d45868c3c6c77a6c70c9f',
+        appId: '78808dcc36e740ab8e56220dfbc42328',
         apiUrl: 'https://alexbc1.bugfocus.com/clientweb/api/v1',
         tenantUrl: 'example.com',
         chatPath: 'https://alexbc1.bugfocus.com/clientweb/chat-client-v4/'
-
-        /*        
-         // Default customer data, it can be collected on current site's context
-         first_name: '',
-         last_name: '',
-         email: '',
-         phone_number: ''
- 		*/
     };
 </script>
+
 <script src="https://alexbc1.bugfocus.com/clientweb/chat-client-v4/js/init.js"></script> 
+ <div class="sp-callback-form" id="sp-callback-form">
+   <label>Request a callback</label>
+   <label>&nbsp;</label>
+   <label>Name:</label>
+   <input type="text" id="sp-callback-name" placeholder="Name" />
+   <label>Phone:</label>
+   <input type="tel" id="sp-callback-phone_number" placeholder="Phone" />
+   <button id="sp-callback-submit-inline">Request Call</button>
+</div>
+
+
 	<h1> Tags are supported in HTML5 </h1>
 	<h2> There is article tag </h2>
     <article style="width: 300px; border: 2px solid gray;  
