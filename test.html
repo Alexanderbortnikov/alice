@@ -171,3 +171,30 @@ Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
     };
 </script>
 <script src="https://alexbc1.bugfocus.com/clientweb/chat-client-v4/js/init.js"></script> 
+<!-- You have to put this piece of JavaScript code into your web page
+Note: Use <!DOCTYPE html> on the page where snippet located for better rendering
+-->
+<link type="text/css" rel="stylesheet" href="https://alexbc1.bugfocus.com/clientweb/chat-client-v4/css/form.css">
+<script type="text/javascript">
+    SERVICE_PATTERN_CHAT_CONFIG = {
+        appId: '455c0b71b41c490ebd66ea8c0bfb3862',
+        apiUrl: 'https://alexbc1.bugfocus.com/clientweb/api/v1',
+        tenantUrl: 'example.com',
+        chatPath: 'https://alexbc1.bugfocus.com/clientweb/chat-client-v4/'
+
+        /*        
+         // Default customer data, it can be collected on current site's context
+         first_name: '',
+         last_name: '',
+         email: '',
+         phone_number: ''
+ 		*/
+    };
+</script>
+<script src="https://alexbc1.bugfocus.com/clientweb/chat-client-v4/js/init.js"></script> 
+ <div class="sp-callback-form" id="sp-callback-form">
+   <label>1</label>
+   <button id="sp-chat-submit-inline">Chat</button>
+   <button id="sp-callback-submit-inline">Call</button>
+</div>
+
